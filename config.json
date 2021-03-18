@@ -1,0 +1,8 @@
+{
+  "couchdb": {
+    "uuid": "5eb4dcef-5e0d-4a0e-9a4f-f8f1b14c969b"
+  },
+  "cors": {
+    "credentials": false
+  }
+}

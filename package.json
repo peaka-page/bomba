@@ -1,0 +1,41 @@
+{
+  "name": "bomba",
+  "version": "1.0.0",
+  "description": "the engine of the system",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --config nodemon.json src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peaka-page/bomba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peaka-page/bomba/issues"
+  },
+  "homepage": "https://github.com/peaka-page/bomba#readme",
+  "dependencies": {
+    "@types/node": "^14.14.34",
+    "dateformat": "^4.5.1",
+    "express": "^4.17.1",
+    "logger": "^0.0.1",
+    "mongodb": "^3.6.5",
+    "mquery": "^3.2.4",
+    "nodemon": "^2.0.7",
+    "omdb-client": "^2.0.0",
+    "pouchdb": "^7.2.2",
+    "pouchdb-find": "^7.2.2",
+    "puppeteer": "^8.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "write": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/dateformat": "^3.0.1",
+    "@types/pouchdb": "^6.4.0",
+    "@types/uuid": "^8.3.0"
+  }
+}
